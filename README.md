@@ -9,7 +9,7 @@
 
 
 ## 1. 타겟 및 상황 설정
-<p align="left"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/3961fb0b-c174-45a9-b922-c0089cec976c" weight=600 height=300/></p>
+<p align="left"><img src="https://github.com/everyshayday/Marketing-promotions-data-analysis/assets/124337992/22797b3b-3f80-454d-bba0-935d51e5f3ac" weight=600 height=300/></p>
 
 캐릭터 출처 : 망그러진 곰(@yurang_official)
 
