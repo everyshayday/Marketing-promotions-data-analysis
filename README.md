@@ -100,4 +100,4 @@ Quito 지역 매장은 주로 **고소득층 고객**이 많다.
 2. 프로모션 대상 품목 및 장소 선정에 대한 추가 분석
 3. 프로모션 비용 시뮬레이션
 
-자세한 과정은 [노션](https://seyeoncho.notion.site/4ee555e8d3b645ec9284c3fcfcce181d?pvs=4)https://seyeoncho.notion.site/4ee555e8d3b645ec9284c3fcfcce181d?pvs=4 참고
+자세한 과정은 [노션](https://seyeoncho.notion.site/4ee555e8d3b645ec9284c3fcfcce181d?pvs=4) 참고
