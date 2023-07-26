@@ -1,4 +1,4 @@
-# 프리미엄 식품관 런칭을 위한 데이터 분석
+![image](https://github.com/everyshayday/Marketing-promotions-data-analysis/assets/124337992/c02b148d-8aa7-45c7-a3e7-ed084edddaa8)# 프리미엄 식품관 런칭을 위한 데이터 분석
 
 - 멋쟁이사자처럼 AI SCHOOL 8기 데이터톤
 - Member: 멋쟁이사자처럼 AI SCHOOL 8기 1조
@@ -61,15 +61,13 @@ Quito 지역 매장은 주로 **고소득층 고객**이 많다.
 
 1) **연도별 국가 행사 및 키토 지역 행사 판매량(sales) 목록**
 
-<p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/17bce4ec-b7eb-4673-9503-10f05c0f1bc7" weight=800 height=400/></p>
-
-<p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/1e5028c9-2993-4f21-a639-643ac15f98c3" weight=800 height=400/></p>
+<p align="center"><img src="https://github.com/everyshayday/Marketing-promotions-data-analysis/assets/124337992/5a5d5a8f-2314-40b9-93d7-65facaefe738" weight=800 height=400/></p>
 
 ⇒ 연도별 국가 행사 및 키토 지역 행사 판매량을 비교한 결과 **매년 공통적으로 크리스마스 시기에 높은 판매량을 기록**
 
 2) **연도별 크리스마스 기간 판매량(sales) 추이**
 
-<p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/44fdb7cd-baf5-492f-a6ae-c979f80b5894" weight=600 height=300/></p>
+<p align="center"><img src="https://github.com/everyshayday/Marketing-promotions-data-analysis/assets/124337992/89d9962e-e284-4914-85b5-99df087675ce" weight=600 height=300/></p>
 
 ⇒ **매년 크리스마스 기간** 판매량(sales)이 증가하는 추세
 
@@ -77,13 +75,13 @@ Quito 지역 매장은 주로 **고소득층 고객**이 많다.
 
 1) **크리스마스 전후 7일간 판매량(sales) 변화**
 
-<p align="center"><img src="https://github.com/haLinnn/Datathon/assets/108817458/47dd13dc-a3cc-4fe1-9eba-eec27894c3ea" weight=450 height=450/></p>
+<p align="center"><img src="https://github.com/everyshayday/Marketing-promotions-data-analysis/assets/124337992/0c2be53f-bc27-40ad-81a6-b254bd15c682" weight=450 height=450/></p>
 
 ⇒ **12월 18~20일**부터 크리스마스 준비로 인해 판매량(sales)이 눈에 띄게 증가함
 
 2) **크리스마스 전후 한 달간 판매량(sales) 변화**
 
-<p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/dbf0f5a4-7b83-479f-82db-782589d6f8f9" weight=450 height=450/></p>
+<p align="center"><img src="https://github.com/everyshayday/Marketing-promotions-data-analysis/assets/124337992/99743868-7885-432f-b010-f98860743d57" weight=450 height=450/></p>
 
 ⇒ **크리스마스 한 달 전**부터 꾸준히 판매량(sales) 상승세
 
@@ -109,13 +107,13 @@ Quito 지역 매장은 주로 **고소득층 고객**이 많다.
 1) 키토 지역 내 스토어에서 FROZEN FOODS의 판매량(sales) 현황
 :  **FROZEN FOODS(냉동 식품)** 은 연말마다 판매량(sales)이 폭발적으로 증가
 
-<p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/10739774-14e5-4de9-8c3e-ac0b40562961" weight=800 height=400/></p>
+<p align="center"><img src="https://github.com/everyshayday/Marketing-promotions-data-analysis/assets/124337992/fa511fb6-56d5-40ce-9de6-e112cd597d67" weight=800 height=400/></p>
 
 
 2) 키토 지역 내 스토어에서 LIQUOR, WINE, BEER의 판매량(sales) 현황
 :  **LIQUOR, WINE, BEER(주류)** 도 연말마다 판매량(sales)이 증가
 
-<p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/9ffb1f5d-b953-400a-929e-d853abae5481" weight=800 height=400/></p>
+<p align="center"><img src="https://github.com/everyshayday/Marketing-promotions-data-analysis/assets/124337992/c2f88feb-b660-403c-91ea-7d38adf97481" weight=800 height=400/></p>
 
 
 3) **키토 지역의 품목별 판매량(sales) 비교** (모든 월 vs. 크리스마스 기간)
@@ -124,16 +122,16 @@ Quito 지역 매장은 주로 **고소득층 고객**이 많다.
 - 특히 모든 월 대비 크리스마스 기간에 잘 팔리는 품목은 **FROZEN FOODS(냉동식품)**
 
 
-<p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/14ec7922-61e5-4a34-91e3-790fd1ebb444" weight=600 height=300/></p>
+<p align="center"><img src="https://github.com/everyshayday/Marketing-promotions-data-analysis/assets/124337992/83c7ea20-9219-4c62-87a4-2b045434e745" weight=600 height=300/></p>
 
 
-<p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/be592ccb-fb42-4f1b-850a-65ae774b184c" weight=600 height=300/></p>
+<p align="center"><img src="" weight=600 height=300/></p>
 
 
-<p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/d94307e7-654b-4a0b-acf5-2d631220a146" weight=600 height=300/></p>
+<p align="center"><img src="" weight=600 height=300/></p>
 
 
-<p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/36d0a00d-4470-450c-87ca-285247c0b5f6" weight=600 height=300/></p>
+<p align="center"><img src="" weight=600 height=300/></p>
 
 
 ⇒ 프리미엄 식품관 프로모션 시, **냉동식품**에 집중
@@ -159,28 +157,28 @@ Quito 지역 매장은 주로 **고소득층 고객**이 많다.
 
 A.  **44번 매장**
 
-<p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/a2471f71-54e6-499f-811e-afd298a18080" weight=450 height=450/></p>
+<p align="center"><img src="" weight=450 height=450/></p>
 
 
 **Q. 최근 1년(2016년 한 해동안)간 판매량(sales)이 가장 많았던 스토어는 어디인가요?**
 
 A.  **44번 매장**
 
-<p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/06230d7b-eaf2-4dc3-bd7c-5c6e689dae89" weight=450 height=450/></p>
+<p align="center"><img src="" weight=450 height=450/></p>
 
 
 **Q. Quito 지역 스토어 중 가장 거래 건수가 많은 스토어는 어디인가요?**
 
 A.  **44번 매장**
 
-<p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/6fc43f6c-6b3b-467a-b9ab-b9610e50e0d1" weight=450 height=450/></p>
+<p align="center"><img src="" weight=450 height=450/></p>
 
 
 **Q. 최근 1년(2016년 한 해동안)간 거래량(거래건수)이 가장 많았던 스토어는 어디인가요?**
 
 A.  **44번 매장**
 
-<p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/33f433b9-9cab-43a4-9a3f-6fa82fba6c5e" weight=450 height=450/></p>
+<p align="center"><img src="" weight=450 height=450/></p>
 
 
 **Q. (전체 기간 기준) 거래건수 대비 판매량이 높게 나오는 스토어는 어디인가요?**
@@ -191,7 +189,7 @@ A. 기존 판매량 & 거래건수에서 상위였던 매장들이 상위에 존
 
    ⇒ 즉, 3번은 한번에 많은 물건을 주로 구매하는 큰 손 고객이 많은 스토어
    
-<p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/3f4072d6-692b-4ab1-b233-6c3b84659951" weight=450 height=450/></p>
+<p align="center"><img src="" weight=450 height=450/></p>
 
 
 
@@ -207,7 +205,7 @@ A. 기존 판매량 & 거래건수에서 상위였던 매장들이 상위에 존
 
 ⇒ 프로모션 효율이 좋은 **3번** 스토어
 
-<p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/95c364ca-313c-446f-bc41-fbef9a25f86c" weight=600 height=300/></p>
+<p align="center"><img src="" weight=600 height=300/></p>
 
 
 `💡 요약`
@@ -255,22 +253,22 @@ A. 기존 판매량 & 거래건수에서 상위였던 매장들이 상위에 존
 
 - **Frozen Foods**
     
-    <p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/facb21a4-ef30-4279-88c7-282f1894b8d1" weight=600 height=300/></p>
+    <p align="center"><img src="" weight=600 height=300/></p>
     
 - 평균 프로모션 수
     - 2014년 평균 프로모션 수 : 4
     
-    <p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/75aef5fe-71b1-4794-b66a-2d02999e562b" weight=600 height=300/></p>
+    <p align="center"><img src="" weight=600 height=300/></p>
     
 
     - 2015년 평균 프로모션 수 : 2
     
-    <p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/8be670b7-955e-4513-bc6d-8acb41ef8a70" weight=600 height=300/></p>
+    <p align="center"><img src="" weight=600 height=300/></p>
 
     
     - 2016년 평균 프로모션 수 : 5
 
-    <p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/004d0457-8a73-4302-8cad-ff08d5977d43" weight=600 height=300/></p>
+    <p align="center"><img src="" weight=600 height=300/></p>
     
     
     예측 결과를 토대로 프로모션 개수를 다르게 설정
@@ -293,7 +291,7 @@ A. 기존 판매량 & 거래건수에서 상위였던 매장들이 상위에 존
     - 휴일 유무 반영 위해 holiday 데이터셋을 test 데이터셋에 결합
     - 휴일 유무 one-hot-encoding
     
-    <p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/ea7bb456-50be-41e9-9fd0-31b43ce2c1bd" weight=400 height=200/></p>
+    <p align="center"><img src="" weight=400 height=200/></p>
 
 - 파생변수 생성
     - '날짜'컬럼 datetime 형식으로 변경
@@ -316,11 +314,11 @@ A. 기존 판매량 & 거래건수에서 상위였던 매장들이 상위에 존
 - 예측 성능 확인 그래프
     - r2 score: 0.915
         
-        <p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/4811d077-ef7f-454f-adef-df98f071a0bd" weight=450 height=450/></p>
+        <p align="center"><img src="" weight=450 height=450/></p>
         
 - 1주 전 vs 2주 전
 
-<p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/c83420ba-7ab4-4604-981f-4b74497d173c" weight=600 height=300/></p>
+<p align="center"><img src="" weight=600 height=300/></p>
 
 
 > 📍 2주 전 진행하는 것이 판매량이 소폭이지만 상승 (약 12%)
@@ -331,11 +329,11 @@ A. 기존 판매량 & 거래건수에서 상위였던 매장들이 상위에 존
 - 프로모션 개수 : 10개 vs. 15개
     - 프로모션 비용을 고려하여 프로모션 개수를 다량으로 늘리지 않음
 
-<p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/db959c72-d5c3-4ccd-89eb-147b2d18f8d5" weight=600 height=300/></p>
+<p align="center"><img src="" weight=600 height=300/></p>
 
 > 📍 프로모션 10, 15개의 차이가 없음 → **기회비용을 고려하여 10개를** 권장
 
 
 ## 4. 분석 결과
 
-<p align="center"><img src="https://github.com/haLinnn/LIKELION_AI_SCHOOL_DATATHON/assets/108817458/64ee92e2-cb5d-40eb-9b8c-90145011efd5" weight=450 height=450/></p>
+<p align="center"><img src="" weight=450 height=450/></p>
