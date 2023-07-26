@@ -1,4 +1,4 @@
-![image](https://github.com/everyshayday/Marketing-promotions-data-analysis/assets/124337992/c02b148d-8aa7-45c7-a3e7-ed084edddaa8)# 프리미엄 식품관 런칭을 위한 데이터 분석
+# 프리미엄 식품관 런칭을 위한 데이터 분석
 
 - 멋쟁이사자처럼 AI SCHOOL 8기 데이터톤
 - Member: 멋쟁이사자처럼 AI SCHOOL 8기 1조
@@ -8,7 +8,14 @@
 ![스크린샷 2023-05-20 오후 11 36 20](https://github.com/seoinhyeok96/Datathon/assets/125840482/22a7c2b9-89ea-48f5-9571-fe54d9865a19)
 
 
-## 1. 타겟 및 상황 설정
+## 1. 프로젝트 개요
+
+1-1. **주제**
+> Kaggle의 ‘Store Sales - Time Series Forecasting from Corporación Favorita’ 데이터를 활용해 에콰도르 식품 슈퍼마켓 회사의 프로모션 기획한다. 데이터 분석을 의뢰한 대상자, 분석 주제, 분석 과정을 모두 직접 가상으로 설정하여 유의미한 결과를 도출하고 비즈니스 의사결정을 위한 근거를 제공한다.
+
+
+
+1-2. **타겟 및 상황 설정**
 <p align="left"><img src="https://github.com/everyshayday/Marketing-promotions-data-analysis/assets/124337992/22797b3b-3f80-454d-bba0-935d51e5f3ac" weight=600 height=300/></p>
 
 캐릭터 출처 : 망그러진 곰(@yurang_official)
@@ -26,7 +33,7 @@
 > 
 
 
-**문제 상황**
+1-3. **문제 상황**
 
 Quito 지역 매장은 주로 **고소득층 고객**이 많다.
 
@@ -37,6 +44,13 @@ Quito 지역 매장은 주로 **고소득층 고객**이 많다.
 이 프로모션의 목표는 프리미엄 식품관의 인지도를 높이고 축제 분위기와 더불어 식품관에 대한 긍정적인 이미지를 만드는 것이다.
 
 이제 프로모션을 진행할 축제는 어떤 축제로 할지, 어떤 품목을 전면적으로 내세울지, Quito지역 18개 스토어 중 프로모션 효과가 가장 클 곳은 어디일지 정해야한다.
+
+1-4. **프로젝트 목표**
+
+1. 프로모션 기간, 품목, 장소 선정
+2. 판매량 예측
+3. 시각화 대시보드 제작
+
 
 ## 2. 데이터 소개
 - Kaggle의 Store Sales - Time Series Forecasting 데이터셋
@@ -51,289 +65,39 @@ Quito 지역 매장은 주로 **고소득층 고객**이 많다.
 | stores  | (54, 5) | 매장 번호, 도시, 주, 매장 유형 및 매장 클러스터 번호 |
 | transactions | (83488, 3) | 날짜, 매장 번호 및 거래량 |
 
-## 3. 분석 과정
+## 3. 프로젝트 과정 및 결과
+결과 요약
+![image](https://github.com/everyshayday/Marketing-promotions-data-analysis/assets/124337992/4adf8fae-2168-4b2e-ac7f-9aee015106ee)
 
-## **3.1. EDA**
+자세한 과정은 [노션](https://seyeoncho.notion.site/Datathon-5b2403f29c3e42b58f7fab98990bcb21?pvs=4) 참고
 
-### 1. 프로모션 기간 선정
 
-**Q. 키토 지역에서 가장 판매량이 높은 축제(공휴일)는 언제였나요?**
+## 4. 본 프로젝트의 활용 방안 제시
+본 프로젝트는 데이터 기반 프로모션 기획 과정을 보여준다. 매출, 거래건수, 매장 정보를 활용해 프로모션 기간, 품목, 장소를 선정할 수 있다. 또한, MD 직무도 간단히 데이터 분석을 할 수 있는 태블로 대시보드로 업무 효율화를 이룰 수 있다.
 
-1) **연도별 국가 행사 및 키토 지역 행사 판매량(sales) 목록**
+## 5. 개선점
+**프로모션 목적 구체화**
 
-<p align="center"><img src="https://github.com/everyshayday/Marketing-promotions-data-analysis/assets/124337992/5a5d5a8f-2314-40b9-93d7-65facaefe738" weight=800 height=400/></p>
+- 개선 이유: 프로모션의 목적이 모호해 프로모션 품목 및 장소 선정에 대한 EDA가 타당성이 낮았기 때문
+- 개선 방향: 프로모션의 이유를 다시 고민하고 목적을 재설정하고 EDA에 깊이를 더한다.
+- 기대 결과: 좀 더 타당한 분석 결과를 통해 매출을 극대화할 수 있는 프로모션을 기획할 수 있다.
 
-⇒ 연도별 국가 행사 및 키토 지역 행사 판매량을 비교한 결과 **매년 공통적으로 크리스마스 시기에 높은 판매량을 기록**
+**프리미엄 식품관 런칭에 대한 근거 추가**
 
-2) **연도별 크리스마스 기간 판매량(sales) 추이**
+- 개선 이유: 팀 내부에서 에콰도르의 식품 산업을 조사하던 중 프리미엄 식품관 런칭을 하는 가상의 배경 설정을 하면 좋겠다는 의견이 나왔지만 발표 내용에서는 제외했다.(실제 MD는 이 상황을 이미 알고 있다고 가정했으므로) 하지만 발표를 듣는 이의 입장에서는 이에 대한 내용의 부재로 발표의 흐름이 어색하다고 느꼈다.
+- 개선 방향: 에콰도르의 지역별 고객 특징과 슈퍼마켓 종류에 따른 고객의 차이에 대한 내용을 추가한다.
+- 기대 결과: 발표 내용 중 프리미엄 식품관에 대한 흐름을 자연스럽게 만들 수 있다.
 
-<p align="center"><img src="https://github.com/everyshayday/Marketing-promotions-data-analysis/assets/124337992/89d9962e-e284-4914-85b5-99df087675ce" weight=600 height=300/></p>
+**추후 개선 계획**
 
-⇒ **매년 크리스마스 기간** 판매량(sales)이 증가하는 추세
+1. 프로모션에 대한 배경지식 학습 및 해당 프로젝트의 프로모션 구체화
+2. 프로모션 대상 품목 및 장소 선정에 대한 다각도 분석
+3. '프리미엄', '식품관'에 대한 근거 추가
+4. 비용 시뮬레이션을 통한 ROI 계산 도전 
 
-**Q. 그렇다면 적절한 프로모션 시작 일자 및 기간은 언제가 좋을까요?**
+## 6. 개선 결과
+1. 왜 '프리미엄 식품관'을 선정했는지에 대한 근거 추가
+2. 프로모션 대상 품목 및 장소 선정에 대한 추가 분석
+3. 프로모션 비용 시뮬레이션
 
-1) **크리스마스 전후 7일간 판매량(sales) 변화**
-
-<p align="center"><img src="https://github.com/everyshayday/Marketing-promotions-data-analysis/assets/124337992/0c2be53f-bc27-40ad-81a6-b254bd15c682" weight=450 height=450/></p>
-
-⇒ **12월 18~20일**부터 크리스마스 준비로 인해 판매량(sales)이 눈에 띄게 증가함
-
-2) **크리스마스 전후 한 달간 판매량(sales) 변화**
-
-<p align="center"><img src="https://github.com/everyshayday/Marketing-promotions-data-analysis/assets/124337992/99743868-7885-432f-b010-f98860743d57" weight=450 height=450/></p>
-
-⇒ **크리스마스 한 달 전**부터 꾸준히 판매량(sales) 상승세
-
-⇒ **11월 말부터 매체 홍보 시작, 12월 중순부터 오프라인 프리미엄 식품관 오픈 권장**
-
-
-`💡 결론`
-
-> Q. 키토 지역에서 가장 판매량이 높은 축제(공휴일)
->   
-> A. 크리스마스
-> 
-> Q. 적절한 프로모션 시작 일자 및 기간
->  
-> A. 매체 홍보 : 11월 말부터 시작, 오프라인 식품관 프로모션 시작 : 12월 중순 ~ 12월 24일
-
-
-
-### 2. 프로모션 품목 선정
-
-**Q. 크리스마스에 주로 잘 팔리는 제품은 무엇이었나요?**
-
-1) 키토 지역 내 스토어에서 FROZEN FOODS의 판매량(sales) 현황
-:  **FROZEN FOODS(냉동 식품)** 은 연말마다 판매량(sales)이 폭발적으로 증가
-
-<p align="center"><img src="https://github.com/everyshayday/Marketing-promotions-data-analysis/assets/124337992/fa511fb6-56d5-40ce-9de6-e112cd597d67" weight=800 height=400/></p>
-
-
-2) 키토 지역 내 스토어에서 LIQUOR, WINE, BEER의 판매량(sales) 현황
-:  **LIQUOR, WINE, BEER(주류)** 도 연말마다 판매량(sales)이 증가
-
-<p align="center"><img src="https://github.com/everyshayday/Marketing-promotions-data-analysis/assets/124337992/c2f88feb-b660-403c-91ea-7d38adf97481" weight=800 height=400/></p>
-
-
-3) **키토 지역의 품목별 판매량(sales) 비교** (모든 월 vs. 크리스마스 기간)
-
-- 모든 월과 크리스마스 기간 모두 판매량(sales)이 높은 품목은 대부분 **식품**(GROCERY 1, PRODUCE, BEVERAGES, DAIRY, MEATS, BREAD/BAKERY, DELI)
-- 특히 모든 월 대비 크리스마스 기간에 잘 팔리는 품목은 **FROZEN FOODS(냉동식품)**
-
-
-<p align="center"><img src="https://github.com/everyshayday/Marketing-promotions-data-analysis/assets/124337992/83c7ea20-9219-4c62-87a4-2b045434e745" weight=600 height=300/></p>
-
-
-<p align="center"><img src="" weight=600 height=300/></p>
-
-
-<p align="center"><img src="" weight=600 height=300/></p>
-
-
-<p align="center"><img src="" weight=600 height=300/></p>
-
-
-⇒ 프리미엄 식품관 프로모션 시, **냉동식품**에 집중
-
-⇒ 상품 기획 아이디어 : **고급 냉동 밀키트** (고급 레스토랑과 콜라보)
-
-
-`💡 결론`
-
-> Q. 키토 지역에서 크리스마스에 주로 잘 팔리는 품목
->   
-> **A. GROCERY 1(식료품), FROZEN FOODS(냉동 식품), LIQUOR,WINE,BEER(주류)**
-> 
-> ⇒ 프리미엄 식품관 프로모션 시, **냉동식품**에 집중
-> 
-> ⇒ 상품 기획 아이디어 : **고급 냉동 밀키트** (고급 레스토랑과 콜라보)
-
-
-
-### 3. 프로모션 스토어 선정
-
-**Q. Quito 지역 스토어 중 가장 판매량(sales)이 높은 스토어는 어디인가요?**
-
-A.  **44번 매장**
-
-<p align="center"><img src="" weight=450 height=450/></p>
-
-
-**Q. 최근 1년(2016년 한 해동안)간 판매량(sales)이 가장 많았던 스토어는 어디인가요?**
-
-A.  **44번 매장**
-
-<p align="center"><img src="" weight=450 height=450/></p>
-
-
-**Q. Quito 지역 스토어 중 가장 거래 건수가 많은 스토어는 어디인가요?**
-
-A.  **44번 매장**
-
-<p align="center"><img src="" weight=450 height=450/></p>
-
-
-**Q. 최근 1년(2016년 한 해동안)간 거래량(거래건수)이 가장 많았던 스토어는 어디인가요?**
-
-A.  **44번 매장**
-
-<p align="center"><img src="" weight=450 height=450/></p>
-
-
-**Q. (전체 기간 기준) 거래건수 대비 판매량이 높게 나오는 스토어는 어디인가요?**
-
-A. 기존 판매량 & 거래건수에서 상위였던 매장들이 상위에 존재
-
-   ⇒ 거래건수에 대비해서 판매량이 가장 많았던 매장은 **3번 매장**
-
-   ⇒ 즉, 3번은 한번에 많은 물건을 주로 구매하는 큰 손 고객이 많은 스토어
-   
-<p align="center"><img src="" weight=450 height=450/></p>
-
-
-
-**Q. 지금까지 프로모션 효과가 좋았던 스토어는 어디인가요?**
-
-⇒ 프로모션 횟수와 판매량(sales)은 양의 선형관계가 있음.
-
-⇒ 40번대 스토어가 지금까지 프로모션을 많이 진행했으며 평균 판매량(sales)도 높게 나옴.
-
-⇒ 특히 3번 스토어는 40번대 스토어들보다 프로모션은 적게 했지만 평균 판매량(sales)이 꽤 잘 나왔음.
-
-⇒ 지금까지 프로모션을 많이 진행해 인지도가 높은 **47번, 44번** 스토어
-
-⇒ 프로모션 효율이 좋은 **3번** 스토어
-
-<p align="center"><img src="" weight=600 height=300/></p>
-
-
-`💡 요약`
-
-> Q. Quito 지역 판매량(sales) 상위 스토어
-> 
-> A. **44**, 45, 47, 3, 49 순
-> 
-> Q. 최근 1년(2016년 한 해동안)간 판매량(sales)이 가장 많았던 스토어
-> 
-> A. **44**번 스토어가 모든 기간 1위 (참고. 16년 10월부터 47번이 3번의 판매량을 추월)
-> 
-> Q. Quito 지역 거래건수(transactions) 상위 스토어
-> 
-> A. **44**, 47, 45, 46, 3 순
-> 
-> Q. 최근 1년(2016년 한 해동안)간 거래량(거래건수)이 가장 많았던 스토어
-> 
-> A. **44**번 스토어가 모든 기간 1위
-> 
-> Q. 거래건수 대비 판매량 상위 스토어
-> 
-> A. 3, 49, 7, 45, 44 순
-
-
-`💡 결론`
-
-> **스토어(44번)만의 특징**
-> 
-> - 판매량, 거래건수 모두 압도적 1위
-> - 프로모션 다수 진행으로 높은 인지도 보유
-> 
-> ⇒ Sales(판매량) & Transactions(거래건수)이 모두 상위인 **44번 스토어**를 추천
-
-
-## 3.2. 머신러닝을 통한 판매량 예측
-
-- 예측 시기 : 2017년 12월 1일 ~ 12월 24일
-- 예측 항목 : 44번 스토어의 FROZEN FOOD(냉동 식품)의 프로모션 수에 따른 sales
-- 예측 순서 : 프로모션 개수 설정 → sales 예측
-- 사용 데이터 : train_quito, holidays_events, test_quito
-- 모델 선정 : AutoML → 상위 성능 모델 선정 → 하이퍼파라미터 튜닝을 통한 성능 향상
-
-### 1. 프로모션 개수 설정
-
-- **Frozen Foods**
-    
-    <p align="center"><img src="" weight=600 height=300/></p>
-    
-- 평균 프로모션 수
-    - 2014년 평균 프로모션 수 : 4
-    
-    <p align="center"><img src="" weight=600 height=300/></p>
-    
-
-    - 2015년 평균 프로모션 수 : 2
-    
-    <p align="center"><img src="" weight=600 height=300/></p>
-
-    
-    - 2016년 평균 프로모션 수 : 5
-
-    <p align="center"><img src="" weight=600 height=300/></p>
-    
-    
-    예측 결과를 토대로 프로모션 개수를 다르게 설정
-    
-    - test 1 : 2주전 프로모션 개수 10번/15번으로 증가 (11일~ 24일)
-    - test 2 : 1주전 프로모션 개수 10번/15번으로 증가 (18일~ 24일)
-    
-    데이터셋 생성 후 2017년 12월 Frozen Food의 판매량을 예측
-    
-    → 가장 판매량이 높게 나온 test set을 프로모션 기획에 활용
-    
-
-### 2. 데이터 전처리
-
-- 피처 선정
-    - 품목분류 == 'FROZEN FOODS'(냉동식품)
-    - 매장번호 == 44
-    - 필요 컬럼 : '`날짜`', '`판매량`, '`프로모션진행개수`'
-- holiday 데이터셋 결합
-    - 휴일 유무 반영 위해 holiday 데이터셋을 test 데이터셋에 결합
-    - 휴일 유무 one-hot-encoding
-    
-    <p align="center"><img src="" weight=400 height=200/></p>
-
-- 파생변수 생성
-    - '날짜'컬럼 datetime 형식으로 변경
-    - ‘`년`’, ‘`월`’, ‘`일`’, '`요일`'파생변수 생성
-    
-
-### 3. 모델 선정
-
-- Auto ML을 통해 상위 3가지 모델을 선정
-    - LGBM
-    - RandomForest
-    - XGBoost
-
-### 4. 하이퍼파라미터 튜닝
-
-하이퍼파라미터 최적화 라이브러리 `optuna` 를 통한 튜닝
-
-### 5. 예측 결과
-
-- 예측 성능 확인 그래프
-    - r2 score: 0.915
-        
-        <p align="center"><img src="" weight=450 height=450/></p>
-        
-- 1주 전 vs 2주 전
-
-<p align="center"><img src="" weight=600 height=300/></p>
-
-
-> 📍 2주 전 진행하는 것이 판매량이 소폭이지만 상승 (약 12%)
->
-> 따라서 프로모션 진행 지출 비용을 고려하여 진행기간을 선정하는 것이 필요
-
-
-- 프로모션 개수 : 10개 vs. 15개
-    - 프로모션 비용을 고려하여 프로모션 개수를 다량으로 늘리지 않음
-
-<p align="center"><img src="" weight=600 height=300/></p>
-
-> 📍 프로모션 10, 15개의 차이가 없음 → **기회비용을 고려하여 10개를** 권장
-
-
-## 4. 분석 결과
-
-<p align="center"><img src="" weight=450 height=450/></p>
+자세한 과정은 [노션](https://seyeoncho.notion.site/4ee555e8d3b645ec9284c3fcfcce181d?pvs=4)https://seyeoncho.notion.site/4ee555e8d3b645ec9284c3fcfcce181d?pvs=4 참고
